@@ -1,0 +1,5 @@
+caption always "%{Yb} %02d-%02m-%Y %0c %{k}|%{C} %H %{k}|%{G} %l %{k}|%{W} %-Lw%{R}%n %t%{W}%+Lw"
+screen -ln -t root 0 sudo su -
+screen -t bache-1
+screen -t bache-2
+select 1

@@ -1,0 +1,22 @@
+# some more ls aliases
+alias ..='cd ..'
+alias ll='ls -lh'
+alias la='ls -lha'
+alias l='ls -lha'
+alias screen='screen -'
+alias grep='grep --colour'
+
+alias php53='/usr/local/php53/bin/php'
+
+alias st='svn st --ignore-externals'
+alias pex='svn pe svn:externals'
+alias pei='svn pe svn:ignore'
+
+alias myip='lynx http://www.whatsmyip.us/'
+
+export EDITOR=vim
+
+if [ -f ~/.git_completion ]; then
+  source ~/.git_completion
+fi
+

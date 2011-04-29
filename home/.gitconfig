@@ -1,0 +1,22 @@
+[user]
+	email = francisXbesset@gmail.com
+	name  = Francis Besset
+
+[alias]
+  ci = commit
+  st = status
+  br = branch
+  co = checkout
+  logg = log --oneline --decorate --graph
+  cat = cat-file -p
+  lg = og --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
+  
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+
+[code]
+  excludesfile="~/.gitignore"
+
