@@ -20,3 +20,5 @@
 [code]
   excludesfile="~/.gitignore"
 
+[core]
+  autocrlf = input
