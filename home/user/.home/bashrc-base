@@ -18,3 +18,7 @@ if [ -f ~/.home/git/git-completion.bash ]; then
   source ~/.home/git/git-completion.bash
 fi
 
+if [ -f ~/.home/git/git-ps1 ]; then
+  source ~/.home/git/git-ps1
+fi
+
