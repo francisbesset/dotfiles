@@ -6,13 +6,13 @@ alias l='ls -lha'
 alias screen='screen -'
 alias grep='grep --colour'
 
-alias st='svn st --ignore-externals'
-alias pex='svn pe svn:externals'
-alias pei='svn pe svn:ignore'
-
 alias myip='lynx http://www.whatsmyip.us/'
 
 export EDITOR=vim
+
+if [ -f ~/.home/subversion/svn-alias ]; then
+  source ~/.home/subversion/svn-alias
+fi
 
 if [ -f ~/.home/git/git-completion.bash ]; then
   source ~/.home/git/git-completion.bash

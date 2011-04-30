@@ -1,0 +1,3 @@
+alias sti='svn st --ignore-externals'
+alias pex='svn pe svn:externals'
+alias pei='svn pe svn:ignore'
