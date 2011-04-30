@@ -1,6 +1,6 @@
 [user]
-	email = francisXbesset@gmail.com
-	name  = Francis Besset
+  email = francisXbesset@gmail.com
+  name  = Francis Besset
 
 [alias]
   ci = commit
