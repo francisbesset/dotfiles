@@ -6,8 +6,6 @@ alias l='ls -lha'
 alias screen='screen -'
 alias grep='grep --colour'
 
-alias php53='/usr/local/php53/bin/php'
-
 alias st='svn st --ignore-externals'
 alias pex='svn pe svn:externals'
 alias pei='svn pe svn:ignore'
@@ -16,7 +14,7 @@ alias myip='lynx http://www.whatsmyip.us/'
 
 export EDITOR=vim
 
-if [ -f ~/.git-completion.bash ]; then
-  source ~/.git-completion.bash
+if [ -f ~/.home/.git-completion.bash ]; then
+  source ~/.home/.git-completion.bash
 fi
 
