@@ -14,7 +14,7 @@ alias myip='lynx http://www.whatsmyip.us/'
 
 export EDITOR=vim
 
-if [ -f ~/.home/.git-completion.bash ]; then
-  source ~/.home/.git-completion.bash
+if [ -f ~/.home/git/git-completion.bash ]; then
+  source ~/.home/git/git-completion.bash
 fi
 
