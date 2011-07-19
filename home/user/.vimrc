@@ -11,12 +11,13 @@
   set list
 
 " Editing
-  set ff=unix                   " Unix EOL
+  set fileformats=unix          " Unix EOL
+  set fileformat=unix           " Unix EOL
   set fileencoding=UTF-8        " Speak UTF-8
   set encoding=UTF-8            " Display UTF-8
   set ignorecase                " case sensitivity is dumb
-  set tabstop=2                 "
-  set shiftwidth=2              "
+  set tabstop=4                 "
+  set shiftwidth=4              "
   set expandtab                 " We do not want tabs, do we?
   set listchars=trail:¤,tab:>-
 
