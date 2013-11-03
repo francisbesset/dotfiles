@@ -1,20 +1,20 @@
 [alias]
-  ci = commit
-  st = status
-  br = branch
-  co = checkout
-  logg = log --oneline --decorate --graph
-  cat = cat-file -p
-  lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
+    ci = commit
+    st = status
+    br = branch
+    co = checkout
+    logg = log --oneline --decorate --graph
+    cat = cat-file -p
+    lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset%s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
 
 [color]
-  branch = auto
-  diff = auto
-  interactive = auto
-  status = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
 
 [code]
-  excludesfile="~/.gitignore"
+    excludesfile="~/.gitignore"
 
 [core]
-  autocrlf = input
+    autocrlf = input
