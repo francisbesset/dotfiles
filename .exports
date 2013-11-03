@@ -1,2 +1,6 @@
 # Make vim the default editor
 export EDITOR="vim"
+
+for file in ~/.export/*; do
+    source "$file"
+done
