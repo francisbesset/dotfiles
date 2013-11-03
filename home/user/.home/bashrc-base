@@ -2,8 +2,6 @@
 alias screen='screen -'
 alias grep='grep --colour'
 
-export EDITOR=vim
-
 if [ -f ~/.home/subversion/svn-alias ]; then
   source ~/.home/subversion/svn-alias
 fi
@@ -15,4 +13,3 @@ fi
 if [ -f ~/.home/git/git-ps1 ]; then
   source ~/.home/git/git-ps1
 fi
-
