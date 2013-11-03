@@ -1,6 +1,3 @@
-# some more ls aliases
-alias screen='screen -'
-
 if [ -f ~/.home/subversion/svn-alias ]; then
   source ~/.home/subversion/svn-alias
 fi
