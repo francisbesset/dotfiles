@@ -1,6 +1,5 @@
 # some more ls aliases
 alias screen='screen -'
-alias grep='grep --colour'
 
 if [ -f ~/.home/subversion/svn-alias ]; then
   source ~/.home/subversion/svn-alias
