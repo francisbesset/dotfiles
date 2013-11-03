@@ -1,5 +1,4 @@
 # some more ls aliases
-alias ..='cd ..'
 alias ll='ls -lh'
 alias la='ls -lha'
 alias l='ls -lha'
