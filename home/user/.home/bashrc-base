@@ -1,7 +1,4 @@
 # some more ls aliases
-alias ll='ls -lh'
-alias la='ls -lha'
-alias l='ls -lha'
 alias screen='screen -'
 alias grep='grep --colour'
 
