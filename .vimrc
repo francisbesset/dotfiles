@@ -20,4 +20,3 @@
   set shiftwidth=4              "
   set expandtab                 " We do not want tabs, do we?
   set listchars=trail:¤,tab:>-
-
