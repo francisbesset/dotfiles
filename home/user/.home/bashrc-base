@@ -2,8 +2,6 @@
 alias screen='screen -'
 alias grep='grep --colour'
 
-alias myip='lynx http://www.whatsmyip.us/'
-
 export EDITOR=vim
 
 if [ -f ~/.home/subversion/svn-alias ]; then
