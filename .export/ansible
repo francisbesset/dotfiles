@@ -1,1 +1,2 @@
 export ANSIBLE_TRANSPORT=ssh
+export ANSIBLE_NOCOWS=1
