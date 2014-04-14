@@ -16,4 +16,7 @@
 
 [core]
     autocrlf = input
-    excludesfile="~/.gitignore"
+    excludesfile = "~/.gitignore"
+
+[init]
+    templatedir = "~/.git_template"
