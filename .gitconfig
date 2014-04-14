@@ -14,8 +14,6 @@
     interactive = auto
     status = auto
 
-[code]
-    excludesfile="~/.gitignore"
-
 [core]
     autocrlf = input
+    excludesfile="~/.gitignore"
