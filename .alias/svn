@@ -1,4 +1,0 @@
-alias sti='svn st --ignore-externals'
-alias svnd='svn diff'
-alias pex='svn pe svn:externals'
-alias pei='svn pe svn:ignore'
