@@ -1,6 +1,7 @@
 [alias]
     ci = commit
     cia = commit --amend --no-edit
+    diffc = diff --cached
     st = status
     br = branch
     co = checkout
